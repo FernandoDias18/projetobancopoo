@@ -1,3 +1,13 @@
+/*
+    Classe Banco
+    
+Contém o método main, que realiza os seguintes passos:
+i.	cria três instâncias de Cliente (e, consequentemente, as respectivas instâncias de ContaCorrente com pelo menos 2 contas cada cliente)
+ii.	chama o método operar para cada instância de Cliente
+iii.	imprime os resultados
+
+*/
+
 import com.aula.poo.classes.Cliente;
 import com.aula.poo.classes.ContaCorrente;
 
