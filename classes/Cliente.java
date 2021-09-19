@@ -1,15 +1,15 @@
 /*
-  	Classe Transacao
+  	Classe Cliente
+
 Contém os seguintes atributos privados:
-i.	descricao, do tipo String
-ii.	data, do tipo LocalDate
-iii.	valor, do tipo float (que pode ser positivo ou negativo)
+i.	nome, do tipo String
+ii.	conta correntes , do tipo ArrayList de ContaCorrente
 
 Contém os seguintes métodos públicos:
-i.	Construtor, getters e setters (verificando se os dados estão validos)
-ii.	imprimir todos os dados da transação
-
-*/
+i.	construtor (que também constrói o array de ContaCorrente), getters e setters
+ii.	operar, que chama ao menos 3 vez os métodos para depositar, retirar, verificar saldo e imprimir os dados da respectiva conta corrente
+iii.	saldo total, com o da conta correntes.
+iv.	Imprimir: que imprime todos os dados do cliente e das respectivas contas.
 
 
 package com.aula.poo.classes;
