@@ -1,3 +1,16 @@
+/*
+  	Classe Transacao
+Contém os seguintes atributos privados:
+i.	descricao, do tipo String
+ii.	data, do tipo LocalDate
+iii.	valor, do tipo float (que pode ser positivo ou negativo)
+Contém os seguintes métodos públicos:
+i.	Construtor, getters e setters (verificando se os dados estão validos)
+ii.	imprimir todos os dados da transação
+
+*/
+
+
 package com.aula.poo.classes;
 
 
