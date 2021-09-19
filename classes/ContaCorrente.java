@@ -1,5 +1,6 @@
 /*
     Classe ContaCorrente
+    
 Contém os seguintes atributos privados:
 i.	agencia, do tipo int
 ii.	numero, do tipo int
