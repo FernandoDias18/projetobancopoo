@@ -1,3 +1,23 @@
+/*
+    Classe ContaCorrente
+Contém os seguintes atributos privados:
+i.	agencia, do tipo int
+ii.	numero, do tipo int
+iii.	array do tipo ArrayList de Transacao
+iv.	cliente, do tipo Cliente
+
+Contém os seguintes métodos públicos:
+i.	Construtor, getters e setters (verificando se os dados estão validos)
+ii.	depositar um valor na conta (adicionar uma transação)
+iii.	retirar um valor da conta (adicionar uma transação), desde que o saldo não fique negativo; deve retornar o valor efetivamente retirado. 
+Ex. Saldo R$10,00 – retirar $25,00 – Transação criada vai ser de $-10. Saldo ficar 0
+iv.	retornar o saldo da conta (somando todas as transações)
+v.	extrato todos os dados da conta corrente, suas transações 
+
+Possui a seguinte invariante: o saldo nunca é negativo.
+
+*/
+
 package com.aula.poo.classes;
 
 import java.util.ArrayList;
